@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.home {
+    display: flex;
+}
+
+.nav-cont {
+    min-width: 400px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(3, 3, 3);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+
+.nav-cont img {
+    border-radius: 50%;
+}
+
+.nav-cont h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.nav-cont p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.nav-cont a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.cont-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cont-cont .article {
+    padding: 50px 100px;
+    height: auto;
+}
+
+.article h1 {
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+
+.article h2 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.article h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 20px 0 10px 0;
+}
+
+.article p {
+    padding: 20px 0 30px 0;
+    line-height: 36px;
+}
+.article a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2rem;
+}
+
+.sepparator {
+    background: black;
+    height: 1px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background: rgb(57, 57, 57);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 0 50px 0;
+}
+
+button:hover {
+    background: black;
+}
