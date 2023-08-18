@@ -1,4 +1,8 @@
-# blog-vanilla
-I'm building a blog application for my articles, and the first step was to create a base structure and CSS. Later I will use this, to create the same look within ReactJS.
+# The vanilla version of my future blog
 
-I wanted to have a very minimalistic look, so I used black and white (I've tried to change black to dark grey and white for light grey for better visibility, but I like this look much better). I've also added some color with text gradient effect in hover. The side-navbar is a must, and I want that to jump on the top on mobil view, and have a sticky top nav instead of the usual hamburger menu. As I have very few menu links here, I think this will work.
+I'm building a blog application for my articles, and the first step was to create a base structure and styling that I like. Later on, I will use this base to create the same look in Next.js with JSX and Tailwind CSS.
+
+**Storytime.** Whenever I'm on vacation, my little sis, Alma (this is how I call my precious Macbook Air) is my bestie. But developing full-stack Next.js applications without a stable internet connection, with constant interruptions, and with small memory capacity is obviously not a way to go here. But what if my kind of fun on vacation is coding? Well, then it's the perfect time for some codeprep. I get creative in nature either way. Sometimes I even dream of layout solutions or JavaScript logic. Is it just me? So I prepare stuff in plain HTML, CSS, maybe JavaScript too, that I'll use later, when I get home from vacation. It makes perfect sense for me :)) Nothing's better than messing around with CSS in the shades of an apple tree or right next to a cool mountain stream, right?
+
+**Back to the project.** I wanted to have a minimalistic, monochrome look that changes to colorful when the user is interacting with the page. So I used black and white as main colors. I've tried to change black to dark grey and white to light grey for better visibility, but I like this look much better, the fifty shades of gray will be another project. I've also added some color with a text-gradient effect on hover. The side navbar is a must, and I want that to jump on the top on mobil view, and have a sticky top nav instead of the usual hamburger menu. As I have very few menu links here, I think this will work, but I guess I'll find out.
+
